@@ -1,3 +1,4 @@
+import asyncio
 from pyrogram.client import Client
 from bot.config import config
 
