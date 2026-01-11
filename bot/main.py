@@ -1,7 +1,7 @@
 from pyrogram import Client
 from bot.config import config
 
-from bot.handlers import start, register, wake, status
+from bot.handlers import start, add_device, wake, status
 
 async def main():
     app = Client(
@@ -13,6 +13,6 @@ async def main():
     
     # Handler setup
     start.register(app)
-    register.register(app)
+    add_device.register(app)
     wake.register(app)
     status.register(app)
