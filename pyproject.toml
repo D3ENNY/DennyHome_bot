@@ -18,6 +18,7 @@ dependencies = [
   "pyrogram>=2.0",
   "tgcrypto",
   "uvloop; platform_system != 'Windows'",
+  "dotenv,"
 ]
 
 [project.urls]
