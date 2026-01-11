@@ -1,7 +1,7 @@
 import os
-from dotenv import local_dotenv
+from dotenv import load_dotenv
 
-load_doatenv()
+load_dotenv()
 
 class config: 
     API_ID = int(os.getenv("API_ID",0))
