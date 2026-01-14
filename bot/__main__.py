@@ -1,5 +1,4 @@
-import asyncio
-import uvloop
+import asyncio, uvloop
 
 # Make asyncio faster
 uvloop.install()

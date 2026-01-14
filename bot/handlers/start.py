@@ -9,5 +9,5 @@ def register(app):
             "**Lista comandi:**\n"
             "/add_device -> registra nuovo dispositivo\n"
             "/status -> verifica lo stato di un dispositivo\n"
-            "/wake -> sfritta wol per accendere un dispositivo"
+            "/wake -> sfrutta wol per accendere un dispositivo"
         )
