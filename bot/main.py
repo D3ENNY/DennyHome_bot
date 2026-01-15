@@ -2,7 +2,7 @@ import asyncio
 from pyrogram.client import Client
 from bot.config import config
 
-from bot.handlers import start, add_device, wake, status
+from bot.handlers import start, add_device, wake, status, login, register
 
 async def main():
     app = Client(
@@ -19,6 +19,8 @@ async def main():
     add_device.register(app)
     wake.register(app)
     status.register(app)
+    login.register(app)
+    register.register(app)
     
     print("Bot started. Press Ctrl+C to stop")
     
