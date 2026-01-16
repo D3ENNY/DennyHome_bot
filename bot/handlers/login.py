@@ -7,3 +7,13 @@ def register(app):
         await message.reply(
 
         )
+
+###
+#   verified = bcrypt.checkpw(
+#       "PASSWORD".encode(),
+#       data["password_hash"].encode(), 
+#   )
+###        verified = bcrypt.checkpw(
+            "PASSWORD".encode(),
+            data["password_hash"].encode(), 
+        )
